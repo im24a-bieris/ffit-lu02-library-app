@@ -1,8 +1,15 @@
 package ch.bzz;
 
+import java.util.Scanner;
+
 public class LibraryAppMain {
 
     public static void main(String[] args) {
-        System.out.println("HelloWorld");
+        Scanner scanner = new Scanner(System.in);
+        
+        String eingabe = scanner.nextLine();
+        
+        System.out.println("Du hast eingegeben: " + eingabe);
     }
+    
 }
